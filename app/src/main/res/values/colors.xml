@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/header_text_color</color>
+    <color name="purple_500">@color/header_text_color</color>
+    <color name="purple_700">@color/white</color>
+    <color name="teal_200">@color/main_bg_color</color>
+    <color name="teal_700">@color/main_bg_color</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#aaa</color>
+    <color name="gray_text">#acadaf</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="new_black">#1C1C1C</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="main_night_bg_color">#16242E</color>
+    <color name="splash_text">#1DB06F</color>
+    <color name="header_text_color">#1DB06F</color>
+    <color name="tab_txt_press">#ffffff</color>
+    <color name="tab_txt_unpress">#1DB06F</color>
+    <color name="main_bg_color">#F9FBFD</color>
+    <color name="thumb_color">#A1A1A2</color>
+    <color name="track_color">#DADCDD</color>
+    <color name="chkbox_color">#ffffff</color>
+    <color name="home_top_start_color">#04915f</color>
+    <color name="home_top_end_color">#70c64b</color>
+    <color name="round_btn_bg">#80000000</color>
+    <color name="drawer_unpress">#AFAEAE</color>
+    <color name="drawer_press">#1DB06F</color>
+    <color name="popup_bg">#fff</color>
+    <color name="popup_btn_color">#E6F6ED</color>
+    <color name="btn_icon">#1DB06F</color>
+    <color name="btn_text">#1DB06F</color>
+    <color name="circle_pre">#1DB06F</color>
+    <color name="text_bg_pre">#fff</color>
+    <color name="pre_icon_color">#fff</color>
+    <color name="pre_text_color">#1DB06F</color>
+    <color name="help_text">#1DB06F</color>
+
+    <color name="gray_500">#9e9e9e</color>
+    <color name="lite_black">#515050</color>
+    <color name="back">#eeeeee</color>
+
+    <color name="audio_night">#424141</color>
+    <color name="chat_night">#E1DFDF</color>
+    <color name="text_lite">#BCBABA</color>
+    <color name="voice">#f7f7f7</color>
+
+    <array name="clr">
+        <item>#1DB06F</item>
+        <item>#1DB06F</item>
+        <item>#1DB06F</item>
+    </array>
+
+    <array name="track_color">
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+    </array>
+</resources>

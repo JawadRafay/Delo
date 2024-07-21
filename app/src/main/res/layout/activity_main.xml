@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="@string/app_name"
+            android:textColor="@color/header_text_color"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/setting_img"
+            style="@style/imageStyle"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:src="@drawable/ic_settings"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@+id/header"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/transparent"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp"
+        app:tabRippleColor="@color/transparent" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_below="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+  </RelativeLayout>

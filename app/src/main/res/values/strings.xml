@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name" translatable="false">Dele</string>
+
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <!--sliding navigation-->
+    <string name="srn_drawer_open" translatable="false">Open</string>
+    <string name="srn_drawer_close" translatable="false">Close</string>
+
+    <string name="srn_ex_no_menu_view" translatable="false">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
+    <string name="srn_ex_bad_content_view" translatable="false">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
+
+    <string name="recent_status">Recent Status</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="wapp">WhatsApp</string>
+    <string name="wbapp">WA Business</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_app">Rate App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="more_app">More App</string>
+    <string name="tap_to_open">Tap to open</string>
+    <string name="whatsapp_business">Whatsapp Business</string>
+    <string name="select_all">Select All</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="share">Share</string>
+    <string name="repost">Repost</string>
+    <string name="exit_alert">Press back again to Exit</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिंदी</string>
+    <string name="arabic" translatable="false">العربية</string>
+    <string name="delete_error">Couldn\'t delete some files</string>
+    <string name="Permission_denied">Permission denied!</string>
+    <string name="delete_success">Deleted successfully</string>
+    <string name="save_error">Couldn\'t save some files</string>
+    <string name="save_success">Saved Successfully</string>
+    <string name="delete_alert">Are you sure , You want to delete selected files?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm Delete....</string>
+    <string name="del_status">Are you sure, You Want To Delete This Status?</string>
+    <string name="saved_success">Status saved successfully</string>
+
+    <!--steps-->
+    <string name="how_to_use">How to use?</string>
+    <string name="step_1">Step 1</string>
+    <string name="first_step">Tap on WhatsApp icon.</string>
+    <string name="step_2">Step 2</string>
+    <string name="second_step">Click to open Whatsapp or WA Business button.</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_three">First you have to see Status from Whatsapp or WA Business.</string>
+    <string name="step_4">Step 4</string>
+    <string name="step_four">Once you seen status in Whatsapp or WA Business then open this application Your seen status will be here in this app and from here you can Download and Share.</string>
+    <string name="status_not_available">Status not available.</string>
+
+
+    <!--admob ids-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_openads" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="status">Status</string>
+    <string name="chat">Chat</string>
+    <string name="images">Images</string>
+    <string name="voice">Voice</string>
+    <string name="audio">Audio</string>
+    <string name="saved_status_not_available">Empty saved status list.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cant_find_whatsapp_dir">Can\'t find WhatsApp directory</string>
+    <string name="no_files_found">No file found!</string>
+    <string name="document">Document</string>
+    <string name="download">Download</string>
+
+    <!--wato service-->
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="privacy_policy_label">Privacy Policy</string>
+    <string name="service_name">Incoming Message Notification Listener</string>
+    <string name="mainAutoReplyTextPlaceholder">(Custom Reply)</string>
+    <string name="auto_reply_default_message">I am Bus,Call later</string>
+    <string name="mainAutoReplyLabel">Auto reply text</string>
+    <string name="mainAutoReplySwitchOffLabel">Auto reply OFF</string>
+    <string name="mainAutoReplySwitchOnLabel">Auto reply ON</string>
+    <string name="mainAutoReplyEditBtnTooltip">Click to edit auto reply text</string>
+    <string name="to_help_you_leave_whatsapp">Auto reply to help you leave WhatsApp and Facebook messenger</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="sure">I\'m Sure</string>
+    <string name="retry">Retry</string>
+    <string name="permission_dialog_title">Permission Required</string>
+    <string name="permission_dialog_msg">This app requires Notification Access permissions to work.</string>
+    <string name="permission_dialog_denied_title">Permission Denied</string>
+    <string name="permission_dialog_denied_msg">Without this permission app is unable to auto-reply to the notifications. Are you sure you want to deny the permission?</string>
+
+    <!-- Select apps to auto reply -->
+    <string name="enable_for_apps">Enable for apps</string>
+    <string name="enable_auto_reply_switch_msg">Enable Auto Reply Switch First.</string>
+    <string name="error_atleast_single_app_must_be_selected">Error: Select at-least a single app</string>
+
+    <!-- Group chats -->
+    <string name="groupReplySwitchLabel">Auto reply for Group chats</string>
+    <string name="group_reply_on_info_message">Enabled auto reply for group chats</string>
+    <string name="group_reply_off_info_message">Disabled auto reply for group chats</string>
+
+    <string name="time_picker_title">Reply frequency (BETA)</string>
+    <string name="time_picker_sub_title_default">Respond to all messages without control</string>
+    <string name="time_picker_sub_title">Respond only once every %1$d day(s) for each person or group</string>
+    <string name="time_format_placeholder">00:00</string>
+    <string name="time_picker_edit_btn_tooltip">Click to edit time delay between replies</string>
+    <string name="app_version">v%1$s</string>
+
+    <!-- Custom message editor -->
+    <string name="tip_view_messages_from_fellow_users">🦩 <u>View templates from community and share yours too ➚</u></string>
+    <string name="append_watomatic_arribution_checkbox_label">Append Watomatic arribution to help spread the word</string>
+    <string name="sent_using_Watomatic">Sent using watomatic.app</string>
+
+    <string name="share_app_text">I am using Watomatic to break away from WhatsApp. Try it out: watomatic.app</string>
+    <string name="share_subject">Watomatic: Auto Reply for WhatsApp</string>
+    <string name="watomatic_subreddit_label"><u>Let\'s discuss\nr/watomatic</u></string>
+    <string name="watomatic_subreddit_url" translatable="false">https://www.reddit.com/r/watomatic</string>
+    <string name="watomatic_github_url" translatable="false">https://github.com/adeekshith/watomatic</string>
+    <string name="watomatic_wato_message_url" translatable="false">https://www.reddit.com/r/watomatic/comments/lrkn7j/fellow_watos_share_your_creative_wato_message/</string>
+    <string name="watomatic_whatsnew_label">What\'s New?</string>
+    <string name="watomatic_github_latest_release_url" translatable="false">https://github.com/adeekshith/watomatic/releases/latest</string>
+
+    <!-- Share debug logs -->
+    <string name="app_logs_file_name" translatable="false">WatomaticLogs.txt</string>
+    <string name="share_email_body" translatable="false">Hi Team Watomatic,\nPlease find the attachment of the app logs.</string>
+    <string name="share_email_subject" translatable="false">Watomatic AppLogs</string>
+    <string name="share_email_id" translatable="false">watomatic@deekshith.in</string>
+    <string name="share_email_err_msg" translatable="false">Couldnot find any application to process this request</string>
+
+    <!-- keys and app internal strings -->
+    <string name="key_pref_app_language" translatable="false">pref_app_language</string>
+    <string name="pref_show_notification_replied_msg" translatable="false">pref_show_notification_replied_msg</string>
+    <string name="pref_auto_start_permission" translatable="false">pref_auto_start_permission</string>
+    <string name="pref_is_append_watomatic_attribution" translatable="false">pref_is_append_watomatic_attribution</string>
+    <string name="pref_show_foreground_service_notification" translatable="false">pref_show_foreground_service_notification</string>
+
+    <!-- app settings -->
+    <string name="show_notification_label">Show notification for replied messages</string>
+    <string name="preference_category_general_label">General settings</string>
+    <string name="preference_category_notifications_label">Notifications</string>
+    <string name="preference_category_troubleshooting_label">Troubleshooting</string>
+    <string name="enable_auto_start_label">Enable Auto Start</string>
+    <string name="add_attribution_label">Add Attribution</string>
+    <string name="enabled_apps_title">Enabled Apps</string>
+    <string name="always_on_notification">Always-On notification</string>
+    <string name="display_persistent_notification_summary">Display a persistent notification to ensure Watomatic is not killed by the system</string>
+    <string name="enable_auto_start_summary">Some devices might need you to manually enable Auto start for Watomatic from device settings</string>
+
+
+    <!-- App Rating Dialog -->
+    <string name="app_rating_dialog_title">What do you think?</string>
+    <string name="app_rating_dialog_msg">We are interested in what you think of the app. Tap the stars above to rate it.</string>
+    <string name="app_rating_dialog_rate_button_title">Rate it!</string>
+    <string name="app_rating_dialog_rate_later_title">May be later</string>
+    <string name="app_rating_goto_store_dialog_title">We\'re happy!</string>
+    <string name="celebrate_emoji" translatable="false">😃🙌</string>
+    <string name="app_rating_goto_store_dialog_msg">Please share this rating of our app on the Google Play Store by tapping \"Continue\"\!</string>
+    <string name="app_rating_pitch">This app is free, no ads, no tracking, open source and is made by contributors like you and me.
+        Your feedback is our only encouragement.</string>
+    <string name="app_rating_goto_store_dialog_button1_title">Not Interested</string>
+    <string name="app_rating_goto_store_dialog_button2_title">Continue</string>
+    <string name="app_rating_feedback_dialog_title">Contact us</string>
+    <string name="app_rating_feedback_dialog_msg">Let us know how we can improve.</string>
+    <string name="app_rating_feedback_dialog_mail_button_title">Email Us</string>
+    <string name="app_rating_feedback_dialog_telegram_button_title">Telegram</string>
+
+    <!--Autostart Permission Dialog-->
+    <string name="auto_start_permission_dialog_title">AutoStart Permission</string>
+    <string name="running_in_the_background">Running in the background</string>
+    <string name="auto_start_permission_dialog_message">Enable \"Auto Start\" permission in device settings to allow Watomatic to start on device restart.</string>
+    <string name="device_based_settings_message">Note: Settings may vary or may not be available based on your device</string>
+    <string name="setting_not_available_for_device">This setting is not available or may not be needed for your device.</string>
+    <string name="enable_auto_start_setting">Proceed</string>
+    <string name="decline_auto_start_setting">Cancel</string>
+    <string name="app_not_installed_text">Not installed</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="key_pref_advanced_settings" translatable="false">pref_advanced_settings</string>
+    <string name="contact_based_reply">Contact based replies</string>
+    <string name="pref_reply_contacts" translatable="false">pref_reply_contacts</string>
+    <string name="contact_reply_type">Reply to</string>
+    <string name="blacklist">Everyone except selected contacts</string>
+    <string name="whitelist">Nobody except selected contacts</string>
+    <string name="pref_code_blacklist" translatable="false">pref_blacklist</string>
+    <string name="pref_code_whitelist" translatable="false">pref_whitelist</string>
+    <string name="pref_reply_contacts_type" translatable="false">pref_reply_contacts_type</string>
+    <string name="enable_contact_based_reply">Enable contact based replies</string>
+    <string name="select_contacts">Select contacts</string>
+    <string name="key_pref_select_contacts" translatable="false">pref_select_contacts</string>
+    <string name="contact_selector">Contact selector</string>
+    <string name="select_none">Select none</string>
+    <string name="contact_permission_dialog_msg">Contact read access is required in order to filter names and enable this feature. Do you want to continue?</string>
+    <string name="contact_permission_dialog_proceed">Proceed</string>
+    <string name="contact_permission_dialog_cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="all_contacts_selected">All contacts selected</string>
+    <string name="all_contacts_unselected">All contacts unselected</string>
+
+    <string name="donations_activity_title">Donations</string>
+    <string name="donations_data_fetch_error">Unable to fetch latest data</string>
+    <string name="donations_goal_title_0">Struggling</string>
+    <string name="donations_goal_0">Every penny counts to help it survive</string>
+    <string name="donations_goal_title_20">Just Surviving</string>
+    <string name="donations_goal_20">Supports daily maintenance and critical fixes</string>
+    <string name="donations_goal_title_30">Stable</string>
+    <string name="donations_goal_30">Quicker bug fixes and keeping it current</string>
+    <string name="donations_goal_title_70">Slow and steady progress</string>
+    <string name="donations_goal_70">Minor features and interface improvements</string>
+    <string name="donations_goal_title_100">Boost mode</string>
+    <string name="donations_goal_100">Help us make it a powerful auto reply app with lots of advanced features</string>
+    <string name="donation_progress_label">of monthly goal</string>
+    <string name="liberapay" translatable="false">Liberapay</string>
+    <string name="paypal" translatable="false">Paypal</string>
+    <string name="add_custom_contact">Add custom contact name</string>
+    <string name="contact_permission_suggestion_dialog_msg">Contact read access is required in order to filter replies by contact names. If the access is not enabled, only manually entered names will be allowed. Do you want to enable it?</string>
+    <string name="contact_permission_dialog_enable_permission">Enable contact permission</string>
+    <string name="contact_permission_dialog_not_now">Not now</string>
+    <string name="contact_permission_dialog_title">Contact read access</string>
+    <string name="start">START</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="dev_id">UpTree Developers.</string>
+    <string name="download_started">Start downloading</string>
+    <string name="no_files_selected">No File Selected</string>
+</resources>

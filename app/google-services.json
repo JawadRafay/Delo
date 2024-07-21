@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999365524865",
+    "project_id": "dele-82b3c",
+    "storage_bucket": "dele-82b3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999365524865:android:7b38088198185c0a737c80",
+        "android_client_info": {
+          "package_name": "com.statussaver.dele"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999365524865-pvk3pda49callt8iuq9p4ba3k62m2c2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0sqE1CdHKqW199hBj65kOmKy8z7JNyMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999365524865-pvk3pda49callt8iuq9p4ba3k62m2c2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

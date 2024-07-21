@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_toStartOf="@+id/tvTime"
+        android:layout_toEndOf="@+id/ivLogo"
+        android:singleLine="true"
+        android:text="Android"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_toStartOf="@+id/tvTime"
+        android:layout_toEndOf="@+id/ivLogo"
+        android:singleLine="true"
+        android:text="its msg"
+        style="@style/textLite"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        style="@style/textLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="02:45 PM"
+        android:textSize="@dimen/_9sdp"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlCounter"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_below="@+id/tvTime"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@drawable/counter_back"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
